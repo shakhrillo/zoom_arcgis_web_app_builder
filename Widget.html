@@ -1,0 +1,13 @@
+<div class="zoom-widget">
+  <p>Enter latitude and longitude to zoom the map to that location.</p>
+  <p>Note: Ensure that the coordinates are in decimal degrees format.</p>
+  <p>Example: Latitude: 34.05, Longitude: -118.25</p>
+  <hr />
+  <label>Latitude:</label>
+  <input type="text" data-dojo-attach-point="latInput" placeholder="e.g. 34.05" />
+  
+  <label>Longitude:</label>
+  <input type="text" data-dojo-attach-point="lonInput" placeholder="e.g. -118.25" />
+  
+  <button data-dojo-attach-event="onclick:_onZoomClick">Zoom</button>
+</div>
